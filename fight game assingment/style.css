@@ -1,0 +1,45 @@
+body{
+    background-image: url(background.gif);
+    background-size: cover;
+}
+.one{
+    height:100;
+    width: 150px;
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+    object-fit: contain;
+}
+.two{
+    height:100;
+    width: 150px;
+    position: absolute;
+    bottom: 30px;
+    right: 150px;
+    object-fit: contain;
+
+}
+.player1 ul li{
+    border: 10px solid blue;
+    width: 100px;
+    opacity: 0.5;
+    display: block;
+    color: wheat;
+
+}
+.player2{
+    border-spacing: 5px;
+    border: 100px solid greenyellow;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0.5;
+}
+ul{
+    display: flex;
+}
+p{
+    color: wheat;
+
+}

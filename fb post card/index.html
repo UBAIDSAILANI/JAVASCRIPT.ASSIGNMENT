@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Assingment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="post.png" type="image/x-icon">
+</head>
+
+<body>
+   
+
+    <!-- post -->
+
+    <div class="main1">
+        <div class="card" id="post">
+            <h2>Create post</h2>
+            <hr>
+            <textarea placeholder="What's on your mind? Ubaid e Mustafa"  onfocus="this.style.none" id="write" cols="30"
+                rows="10"></textarea>
+            <!-- <input type="text" id="write" placeholder="What's on your mind?"> -->
+        </div>
+        <div class="btn">
+            <ul class="dropdown-menu">
+
+                <li><button onclick="green()" class="button green"
+                        style="background-color: rgb(27, 100, 27);"></button>
+                </li>
+                <li><button onclick="blue()" class="button blue"
+                        style="background-color: rgb(78, 78, 235);"></button>
+                </li>
+                <li><button onclick="red()" class="button red" style="background-color: rgb(255, 0, 0);"></button>
+                </li>
+                <li><button onclick="pink()" class="button pink"
+                        style="background-color: rgb(243, 134, 152);"></button>
+                </li>
+                <li><button class="button yellow" onclick="yellow()"
+                        style="background-color: rgb(233, 233, 60);"></button></li>
+                <li><button class="button aqua" style="background-color: rgb(3, 117, 146);"
+                        onclick="aqua()"></button>
+                </li>
+                <li><button class="button voilet" style="background-color: rgb(223, 88, 223);"
+                        onclick="voilet()"></button></li>
+                <li><button class="button white" style="background-color: white;" onclick="white()"></button></li>
+            </ul>
+            <div class="adding">
+                <!-- <p style="color: white; ">Add to your post</p> -->
+                <ul>
+                    <a href="">
+                        <li><img src="gallery.png" height="24px" width="24px" id="gallery" alt=""></li>
+                    </a>
+                    <a href="">
+                        <li><img src="tag.png" height="24px" width="24px" alt=""></li>
+                    </a>
+                    <a href="">
+                        <li><img src="happy.png" height="24px" width="24px" alt=""></li>
+                    </a>
+                    <a href="">
+                        <li><img src="placeholder.png" height="24px" width="24px" alt=""></li>
+                    </a>
+                    <a href="">
+                        <li><img src="finish.png" height="24px" width="24px" alt=""></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="">
+                <a href="" onclick="alert('Successfully post')"><button class="postbtn" id="post">Post</button></a>
+            </div>
+            <div class="anchor">
+                <button><a href=""><img src="like.png" alt=""> Like</a></button>
+                <button><a href=""><img src="comments.png" alt=""> Comments</a></button>
+                <button><a href=""><img src="next.png" alt=""> Share</a></button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+#card {
+    text-align: center;
+}
+
+body{
+    
+        width: 100%;
+        height: 100%;
+        background: violet;
+        animation: mymove 5s infinite;
+    
+      
+    }
+    @keyframes mymove {
+      50% {background-color: rgb(101, 192, 192);}
+    } 
+    .iphone, .samsung, .nokia, .infinix{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    display: inline-block;
+}
+.iphone6, .iphone7, .iphone8, .iphone9, .iphonex, .iphone11 {
+    box-shadow: 1px 5px 5px gray;
+    margin: 30px;
+    padding: 5px;
+
+}
+.a32, .a52, .a72, .note9, .note10, .note11{
+    box-shadow: 1px 5px 5px gray;
+    margin: 30px;
+    padding: 5px;
+
+}
+.n3310, .n2100, .n2300, .nc1, .nc2, .nc3{
+    box-shadow: 1px 5px 5px gray;
+    margin: 30px;
+    padding: 5px;
+
+}
+.note8, .hot9, .hot10, .hot11, .hot12, .zero{
+    box-shadow: 1px 5px 5px gray;
+    margin: 30px;
+    padding: 5px;
+}
+img{
+    height:300px;
+    width: 250px;
+}
+p{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}

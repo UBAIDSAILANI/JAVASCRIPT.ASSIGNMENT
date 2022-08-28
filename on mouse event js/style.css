@@ -1,0 +1,11 @@
+.bold{
+    font-style: italic;
+    font-weight: bold;
+}
+.blue{
+    color: blue;
+}
+#image{
+    height: 400px;
+    width: 400px;
+}

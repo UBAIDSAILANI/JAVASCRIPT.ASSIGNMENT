@@ -1,0 +1,11 @@
+body{
+    margin: 0px auto;
+}
+.small{
+    height: 100px;
+    width: 100px;
+}
+.big{
+    height: 300px;
+    width: 300px;
+}

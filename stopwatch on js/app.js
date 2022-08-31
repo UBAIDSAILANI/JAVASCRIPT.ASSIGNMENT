@@ -53,5 +53,7 @@ function reset(){
     secheading.innerHTML = sec;
     msecheading.innerHTML = msec;
     clearInterval(interval);
+    var start = document.getElementById('start');
+    start.style.display = 'inline-block'
 
 }

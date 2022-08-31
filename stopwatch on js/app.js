@@ -37,12 +37,14 @@ function start(){
     interval = setInterval(timer ,10);
     var start = document.getElementById('start');
     
-        start.style.display = 'none'
+        // start.style.display = 'none'
+        start.disabled =true
     }
 function pause(){
     clearInterval(interval);
     var start = document.getElementById('start');
-    start.style.display = 'inline-block'
+    start.disabled = false
+    
 
 }
 function reset(){
@@ -54,6 +56,7 @@ function reset(){
     msecheading.innerHTML = msec;
     clearInterval(interval);
     var start = document.getElementById('start');
-    start.style.display = 'inline-block'
+
+    start.disabled = false
 
 }

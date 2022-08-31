@@ -10,9 +10,9 @@
 
 // }, 4000)
 
-var min = 0;
-var sec = 0;
-var msec = 0;
+var min = 00;
+var sec = 00;
+var msec = 00;
 var minheading = document.getElementById('min');
 var secheading = document.getElementById('sec');
 var msecheading = document.getElementById('msec');
@@ -23,12 +23,12 @@ function timer (){
     if(msec >= 99){
         sec++
         secheading.innerHTML = sec
-        msec = 0
+        msec = 00
         
     }else if (sec >= 59){
         min++
         minheading.innerHTML = min;
-        sec = 0
+        sec = 00
     }
 
 }
@@ -46,9 +46,9 @@ function pause(){
 
 }
 function reset(){
-    min = 0;
-    sec = 0;
-    msec = 0;
+    min = 00;
+    sec = 00;
+    msec = 00;
     minheading.innerHTML = min;
     secheading.innerHTML = sec;
     msecheading.innerHTML = msec;

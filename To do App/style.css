@@ -33,7 +33,7 @@ button{
 
 
 /* CSS */
-
+  justify-content: right;
   align-items: center;
   appearance: none;
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
@@ -62,6 +62,7 @@ button{
   white-space: nowrap;
   will-change: box-shadow,transform;
   font-size: 18px;
+  text-align: justify;
 }
 
 .button-29:focus {
@@ -80,5 +81,9 @@ button{
 
 input{
   font-family: "JetBrains Mono",monospace;
+  font-size: 18px;
+}
+li{
+    font-family: "JetBrains Mono",monospace;
   font-size: 18px;
 }

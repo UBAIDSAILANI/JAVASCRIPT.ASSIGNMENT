@@ -1,7 +1,16 @@
 var ul = document.getElementById('getTodo');
  
 function getTodo(){
+    
     var input = document.getElementById('write-todo');
+    console.log(input.value)
+    if(input.value == ""){
+        swal("Oops!", "Input can't be empty!");
+
+    }
+
+    
+    else{
     var li = document.createElement('li');
     var text = document.createTextNode(input.value);
     li.appendChild(text);
@@ -19,8 +28,9 @@ function getTodo(){
     editBtn.setAttribute('onclick', 'edit(this)');
     li.appendChild(editBtn)
     ul.appendChild(li);
-    input.value = '';
-    
+    input.value = ""
+  
+    }
 
 
  }
